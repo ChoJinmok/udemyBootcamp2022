@@ -36,7 +36,14 @@
         <!-- input에 label연결하는 다른 방법 -->
         <label>
           Enter a Number:
-          <input type="number" placeholder="enter a number" name="num" />
+          <input
+            type="number"
+            placeholder="enter a number"
+            name="num"
+            min="1"
+            max="1000"
+            step="2"
+          />
         </label>
       </p>
       <!-- form 제출 버튼 -->
@@ -93,6 +100,29 @@
           <option value="veg" selected>Vegetarian</option>
           <option value="steak">Steak</option>
         </select>
+      </p>
+      <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input
+          type="range"
+          name="cheese_level"
+          id="cheese"
+          step="5"
+          min="1"
+          max="100"
+          value="75"
+        />
+      </p>
+      <p>
+        <label for="requests">Any Special Requests</label>
+        <br />
+        <textarea
+          name="requests"
+          id="requests"
+          cols="30"
+          rows="10"
+          placeholder="Type something here"
+        ></textarea>
       </p>
       <button>Submit</button>
     </form>

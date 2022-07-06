@@ -45,9 +45,32 @@
       <button type="button">Regular btton (wosn't submit)</button>
       <!-- input에 type을 submit으로 하면 button처럼 사용 가능 -->
       <input type="submit" value="Click Me!" />
-      <hr />
-      <!-- form의 밖에서는 button은 기본값으로 동작하지 않는다. -->
-      <button>OUTSIDE FORM!</button>
+    </form>
+    <hr />
+    <!-- form의 밖에서는 button은 기본값으로 동작하지 않는다. -->
+    <button>Not Inside Form</button>
+
+    <h2>Hijacking Searches</h2>
+    <form action="https://search.naver.com/search.naver">
+      <p>
+        <label for="naver">NAVER:</label>
+        <input type="text" name="query" id="naver" />
+        <button>Search</button>
+      </p>
+    </form>
+    <form action="https://www.google.com/search">
+      <p>
+        <label for="google">GOOGLE:</label>
+        <input type="text" name="q" id="google" />
+        <button>Search</button>
+      </p>
+    </form>
+    <form action="https://www.youtube.com/results">
+      <p>
+        <label for="youtube">YOUTUBE:</label>
+        <input type="text" name="search_query" id="youtube" />
+        <button>Search</button>
+      </p>
     </form>
   </body>
 </html>

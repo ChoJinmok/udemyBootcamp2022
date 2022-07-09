@@ -5,6 +5,8 @@ h1 {
   text-decoration: #f78120 line-through wavy;
   letter-spacing: 15px;
   font-size: 80px;
+  /* font-family: Segoe UI, Futura, Arial, sans-serif; */
+  font-family: monospace, fantasy;
 }
 
 a {

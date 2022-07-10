@@ -21,3 +21,13 @@ h2 {
   color: #f1faee;
   background-color: #1d3557;
 }
+
+span {
+  color: #457b9d;
+}
+
+.tag {
+  color: #f1faee;
+  background-color: #e63946;
+  font-size: 16px;
+}

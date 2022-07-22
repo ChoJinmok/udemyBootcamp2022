@@ -18,7 +18,7 @@ h1 {
 }
 
 article {
-  font-size: 50px;
+  font-size: 15px;
 }
 
 h2 {
@@ -42,4 +42,8 @@ button {
 
 p {
   font-size: 0.8em;
+}
+
+ul {
+  font-size: 1.5em;
 }

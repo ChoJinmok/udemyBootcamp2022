@@ -17,7 +17,7 @@ h1 {
   line-height: 200%;
 }
 
-#ems article {
+#ems {
   font-size: 15px;
 }
 
@@ -32,7 +32,7 @@ h1 {
   font-size: 1.5em;
 }
 
-#ems button {
+button {
   font-size: 1.5em;
   padding: 0 1em;
   border-radius: 0.5em;
@@ -44,39 +44,24 @@ h1 {
   font-size: 0.8em;
 }
 
-#ems ul {
+ul {
   font-size: 1.5em;
 }
 
 html {
-  font-size: 10px;
-}
-
-#rems article {
-  font-size: 15px;
+  font-size: 30px;
 }
 
 #rems h2 {
-  /* 40px 글꼴 크기 */
-  margin-left: 1em;
-  /* 60px */
   font-size: 3rem;
 }
 
 #rems h3 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 #rems button {
   font-size: 1.5rem;
-  padding: 0 1em;
-  border-radius: 0.5em;
-  background-color: #2a9d8f;
-  color: white;
-}
-
-#rems p {
-  font-size: 0.8em;
 }
 
 #rems ul {
